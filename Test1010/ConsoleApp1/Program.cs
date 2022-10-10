@@ -22,6 +22,7 @@ class Program
         Lod lod = new Lod("Helena",40);
         Lod plachetnice = new Plachetnice("Vlastovka",8,true);
 
+        Console.WriteLine(lod.ChangeToKm());
         lod.RYCHLOST=-20;
 
         Majitel majitel1 = new Majitel("Jana Novakova",lod);
